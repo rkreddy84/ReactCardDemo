@@ -33,6 +33,7 @@ const Card = props => {
     ];
     const renderCard=(card,index) =>{
        return (
+         
          <div className="card-main text-center" key={index}>
             <div className="card">
                <img className="card-img-top" src={card.image} alt="Card image cap"></img>
